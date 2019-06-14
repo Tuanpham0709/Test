@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 
 import com.example.test.adapter.ContactAdapter;
 import com.example.test.model.ContactData;
@@ -22,6 +23,7 @@ public class Contact extends AppCompatActivity {
         setContentView(R.layout.activity_contact);
         init();
         String strContact = loadJSONFronAsset();
+        Log.e("Contact" , strContact);
         Gson gson = new Gson();
         contactData = gson.fromJson(strContact, ContactData.class);
         configRvContact();
