@@ -1,4 +1,4 @@
-package com.example.test.model;
+package com.example.test.model.Contact;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

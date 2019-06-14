@@ -8,10 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.test.Contact;
 import com.example.test.R;
-import com.example.test.model.ContactData;
-import com.example.test.model.Result;
+import com.example.test.model.Contact.Result;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +20,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactV
     public void setContext(Context context){
         this.context = context;
     }
-    public void setData(List<Result > data ){
+    public void setData(List<Result> data ){
         this.data = data;
 
     }

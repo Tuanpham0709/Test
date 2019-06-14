@@ -1,9 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Promotion">
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:textSize="27sp"
+        android:gravity="center"
+        android:text="프로모션 목록"
+        android:background="#FF7E0E"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/tv_title"
+        android:id="@+id/rv_promotion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
