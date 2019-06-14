@@ -11,7 +11,9 @@
         android:background="#FF7E0E"
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        />
 
     <android.support.v7.widget.RecyclerView
         android:layout_below="@+id/tv_title"
