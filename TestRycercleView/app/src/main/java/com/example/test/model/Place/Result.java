@@ -35,16 +35,16 @@ private String description;
 private Object urlBanner;
 @SerializedName("isMoreDetail")
 @Expose
-private Integer isMoreDetail;
+private long isMoreDetail;
 @SerializedName("isPromotion")
 @Expose
-private Integer isPromotion;
+private long isPromotion;
 @SerializedName("longitude")
 @Expose
-private Integer longitude;
+private double longitude;
 @SerializedName("latitude")
 @Expose
-private Integer latitude;
+private double latitude;
 @SerializedName("kakaoTalk")
 @Expose
 private String kakaoTalk;
@@ -124,7 +124,7 @@ public void setUrlBanner(Object urlBanner) {
 this.urlBanner = urlBanner;
 }
 
-public Integer getIsMoreDetail() {
+public long getIsMoreDetail() {
 return isMoreDetail;
 }
 
@@ -132,7 +132,7 @@ public void setIsMoreDetail(Integer isMoreDetail) {
 this.isMoreDetail = isMoreDetail;
 }
 
-public Integer getIsPromotion() {
+public long getIsPromotion() {
 return isPromotion;
 }
 
@@ -140,7 +140,7 @@ public void setIsPromotion(Integer isPromotion) {
 this.isPromotion = isPromotion;
 }
 
-public Integer getLongitude() {
+public double getLongitude() {
 return longitude;
 }
 
@@ -148,7 +148,7 @@ public void setLongitude(Integer longitude) {
 this.longitude = longitude;
 }
 
-public Integer getLatitude() {
+public double getLatitude() {
 return latitude;
 }
 
