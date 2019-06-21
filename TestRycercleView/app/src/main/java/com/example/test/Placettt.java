@@ -35,8 +35,7 @@ public class Placettt extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .baseUrl("http://150.95.115.192/api/")
                 .build();
-        retrofit
-                .create(WonderVNAPIService.class)
+        retrofit.create(WonderVNAPIService.class)
                 .getListPlace(getListPlaceBody)
                 .enqueue(new Callback<ResponseBody>() {
                     @Override

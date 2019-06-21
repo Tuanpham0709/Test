@@ -2,19 +2,21 @@
     android:layout_height="70dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#FF7E0E"
-    android:padding="10dp"
     android:layout_marginTop="0.5dp"
     android:weightSum="3"
     android:id="@+id/ct_bg"
     android:gravity="center">
+    <View
+        android:background="@drawable/item_place_button_pressed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></View>
 
     <TextView
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginVertical="15dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_weight="2.5"
         android:id="@+id/tv_title_place"
         android:textColor="#000000"
         android:textStyle="bold"
@@ -23,6 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
+        android:layout_marginVertical="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -40,6 +43,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <TextView
+        android:layout_marginRight="5dp"
+        android:layout_marginVertical="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintLeft_toRightOf="parent"

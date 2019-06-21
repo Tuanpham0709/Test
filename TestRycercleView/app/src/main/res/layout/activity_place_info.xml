@@ -1,0 +1,125 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textColor="#fff"
+        android:textSize="27sp"
+        android:gravity="center"
+        android:text="프로모션 목록"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/img_logoPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_name_place"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:text="Name "
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/ll_phone_place"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:src="@drawable/ic_call_place"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            />
+        <TextView
+            android:id="@+id/tv_phone_number_place"
+            android:layout_marginLeft="20dp"
+            android:textSize="17sp"
+            android:text="09745435435435"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:background="#B6B2B2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <LinearLayout
+        android:id="@+id/ll_address_place"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_address_place"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_address_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="1 Pham Huy Thong, Ngoch khach ba dinh, ha noi, sadad"
+            android:textSize="17sp" />
+    </LinearLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:background="#BBB7B7"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <LinearLayout
+        android:id="@+id/ll_website_place"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_website_place"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_url_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="1 Pham Huy Thong, Ngoch khach ba dinh, ha noi, sadad"
+            android:textSize="17sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_decreption"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="8 :::::: 9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_list_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
